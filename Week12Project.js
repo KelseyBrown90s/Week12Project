@@ -134,7 +134,7 @@ class DOMManager{
                     '<span id="name-${room.id}"><strong>Name: </strong> ${room.name} </span>',
                     '<span id="area-${room.id}"><strong>Area: </strong> ${room.area} </span>',
                     '<button class="btn btn-danger" onclick="DOMManager.deleteRoom(${hotel.id} , ${room.id})">Delete Room </button>',
-                    //check on button issue
+                    
 
                 );
             }
