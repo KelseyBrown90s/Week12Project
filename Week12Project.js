@@ -144,6 +144,7 @@ class DOMManager{
         }
     }
 }
+//This should create a crud application in which I can add villages and characters within those villages. There was an error with unique ids in regards to character attributes.I believe it may be an issue with my computer because I did the formating as we were taught.
 $(`#create-new-animalcrossingvillage`).click(()=>{
   DOMManager.createAnimalcrossingvillage($(`#new-animalcrossingvillage-name`).val());
   $(`#newanimalcrossingvillage-name`).val('');
